@@ -41,4 +41,5 @@ document.querySelector('#app').innerHTML = `
   <a href="https://reactjs.org/" target="_blank">React <ion-icon name="arrow-redo-outline"></ion-icon></a>
   <a href="https://qwik.builder.io/" target="_blank">Quik <ion-icon name="arrow-redo-outline"></ion-icon></a>
 </nav>
-</div>`
+</div>
+<p>For more info visit the Github repo <ion-icon name="arrow-up-outline"></ion-icon></p>`
