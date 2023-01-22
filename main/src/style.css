@@ -1,0 +1,99 @@
+:root {
+	font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+
+	color-scheme: dark;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow: hidden;
+	/* outline: 1px solid red;*/
+}
+
+a {
+	text-decoration: none;
+	color: lightblue;
+}
+
+body {
+	margin: 0;
+	display: flex;
+	place-items: center;
+	min-width: 320px;
+	min-height: 100vh;
+}
+
+#app {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2.5rem;
+	text-align: center;
+	position: relative;
+	overflow-x: hidden;
+	outline: 2px solid white;
+}
+
+#app div {
+	border: 1px dashed white;
+	padding: 0.75rem;
+}
+
+#app > div:nth-child(3) {
+	margin-top: 20px;
+}
+
+.todoapp {
+	display: grid;
+	grid-template-columns: repeat(4, 50px);
+	grid-template-rows: 50px;
+	gap: 10px;
+	padding: 10px;
+}
+
+.todoapp a img {
+	height: 50px;
+	width: 50px;
+	aspect-ratio: 1 / 1;
+}
+
+.frameworks {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	padding: 10px;
+	width: 165px;
+	margin: 0 auto;
+}
+
+aside {
+	position: absolute;
+	top: 0;
+	right: 0;
+	transform: translate(50%, -50%) rotate(-45deg);
+	background-color: white;
+}
+
+aside a {
+	padding: 5px;
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+
+aside a svg {
+	transform: rotate(45deg);
+}
