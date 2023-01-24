@@ -138,12 +138,12 @@ function updateLocalStorage () {
 	const completed = checklist(completelist);
 	schema.todo = todos;
 	schema.completed = completed;
-	localStorage.setItem('todoapp', JSON.stringify(schema));
+	localStorage.setItem('todoapp-general', JSON.stringify(schema));
 	applyeventlistener();
 }
 
 function getfromLocalStorage () {
-	const tdlist = localStorage.getItem('todoapp');
+	const tdlist = localStorage.getItem('todoapp-general');
 	if (tdlist === null) return;
 	const todos = JSON.parse(tdlist);
 	todos.todo.forEach(todo => {
