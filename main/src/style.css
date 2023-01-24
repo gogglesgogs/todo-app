@@ -60,9 +60,11 @@ body {
 	grid-template-rows: 50px;
 	gap: 10px;
 	padding: 10px;
+	/* margin-top: 30px; */
 }
 
-.todoapp a img {
+.todoapp a img,
+#app > div:nth-child(2) > a:nth-child(2) img {
 	height: 50px;
 	width: 50px;
 	aspect-ratio: 1 / 1;
@@ -75,6 +77,17 @@ body {
 	padding: 10px;
 	width: 165px;
 	margin: 0 auto;
+}
+
+#app > div:nth-child(2) > img:nth-child(3) {
+	display: block;
+}
+
+#app > div:nth-child(2) h3 {
+	text-align: left;
+	position: absolute;
+	top: 1rem;
+	left: 2.5rem;
 }
 
 aside {

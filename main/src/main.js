@@ -1,9 +1,10 @@
 import './style.css'
 import quiklogo from './quik.svg'
+import lines from './lines.svg'
 
 document.querySelector('#app').innerHTML = `
 <aside>
-<a href="http://" target="_blank">
+<a href="https://github.com/someguy403/todo-app" target="_blank">
   <svg height="32" viewBox="0 0 16 16" width="32">
     <path
       fill-rule="evenodd"
@@ -15,28 +16,29 @@ document.querySelector('#app').innerHTML = `
 </aside>
 <div>
 <h3>Todo App</h3>
+<a href="/todo-app/general" target="_blank">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="General Design" title="General Design written with no framework" />
+</a>
+<img src="${lines}" id="lines" />
 <nav class="todoapp">
-  <a href="/todo-app/vite" target="_blank">
-    <img src="https://vitejs.dev/logo.svg" alt="Vite" />
+  <a href="/todo-app/svelte" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/svelte/svelte-original.svg" alt="Svelte" title="Svelte" />
   </a>
   <a href="/todo-app/solid" target="_blank">
-    <img src="https://www.solidjs.com/assets/logo-123b04bc.svg" alt="Solid" />
+    <img src="https://www.solidjs.com/assets/logo-123b04bc.svg" alt="Solid" title="Solid" />
   </a>
   <a href="/todo-app/react" target="_blank">
-    <img
-      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K"
-      alt="React"
-    />
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" title="React" />
   </a>
   <a href="/todo-app/quik" target="_blank">
-    <img id="quik" src="${quiklogo}" alt="Quik" />
+    <img id="quik" src="${quiklogo}" alt="Quik" title="Quik" />
   </a>
 </nav>
 </div>
 <div>
 <p>Framework hamepages</p>
 <nav class="frameworks">
-  <a href="https://vitejs.dev/" target="_blank">Vite <ion-icon name="arrow-redo-outline"></ion-icon></a>
+  <a href="https://svelte.dev/" target="_blank">Svelte <ion-icon name="arrow-redo-outline"></ion-icon></a>
   <a href="https://www.solidjs.com/" target="_blank">Solid <ion-icon name="arrow-redo-outline"></ion-icon></a>
   <a href="https://reactjs.org/" target="_blank">React <ion-icon name="arrow-redo-outline"></ion-icon></a>
   <a href="https://qwik.builder.io/" target="_blank">Quik <ion-icon name="arrow-redo-outline"></ion-icon></a>

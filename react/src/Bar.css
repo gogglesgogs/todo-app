@@ -1,0 +1,41 @@
+.bar {
+	width: 100%;
+	background-color: #23242a;
+	height: auto;
+	padding: 10px;
+	justify-content: space-between;
+}
+
+ion-icon[name="clipboard-outline"] {
+	font-size: 20px;
+}
+
+.bar p {
+	font-family: "JetBrains Mono", monospace;
+}
+
+.bar div {
+	gap: 5px;
+}
+
+#goggles {
+	max-height: 20px;
+	max-width: 20px;
+	border-radius: 50%;
+}
+
+.bar > p:nth-child(2) {
+	gap: 5px;
+}
+
+.bar > p:nth-child(2) > span {
+	transition: 0.5s background-size ease;
+	background-image: linear-gradient(90deg, red, blue);
+	background-size: 0% 3px;
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+
+.bar > p:nth-child(2) > span:hover {
+	background-size: 100% 3px;
+}
