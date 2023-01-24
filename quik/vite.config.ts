@@ -12,8 +12,7 @@ export default defineConfig(() => {
       },
     },
     server: {
-      port: 8001,
-      strictPort: true
+      port: 8000
     },
     base: '/todo-app/quik/'
   };

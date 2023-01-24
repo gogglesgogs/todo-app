@@ -2,8 +2,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
 	server: {
-		port: 8004,
-		strictPort: true
+		port: 8000
 	},
-	base: '/todo-app/vite/'
+	base: '/todo-app/general/'
 });
