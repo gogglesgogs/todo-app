@@ -55,11 +55,11 @@ function App () {
 	}
 
 	function updateLocalStorage (text) {
-		localStorage.setItem('todoapp', JSON.stringify(text));
+		localStorage.setItem('todoapp-react', JSON.stringify(text));
 	}
 
 	function getfromLocalStorage () {
-		const data = JSON.parse(localStorage.getItem('todoapp'));
+		const data = JSON.parse(localStorage.getItem('todoapp-react'));
 		if (data === null) return;
 		setItems(data);
 	}
