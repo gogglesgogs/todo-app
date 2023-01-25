@@ -12,7 +12,7 @@
 </aside>
 <div>
 <h3>Todo App</h3>
-<a href="/todo-app/general" target="_blank">
+<a href="/todo-app/design" target="_blank">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="General Design" title="General Design written with no framework" />
 </a>
 <img src="${s}" id="lines" />
